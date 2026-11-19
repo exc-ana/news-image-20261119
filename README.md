@@ -1,3 +1,7 @@
+[![make.fun · news-image-20261119](https://make.fun/badge/news-image-20261119.svg)](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+[![rank](https://make.fun/badge/news-image-20261119/exc-ana/news-image-20261119/rank.svg)](https://make.fun/bounty/news-image-20261119/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+[![reward](https://make.fun/badge/news-image-20261119/exc-ana/news-image-20261119/reward.svg)](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+
 # Sum up 19 November 2026's world news in one image
 
 make.fun bounty entry **program** (not a submission) for account **@exc-ana**.
@@ -66,31 +70,31 @@ overflows its tile, and the sources line is in the footer.
 
 ## What changed in the full-day refresh (2026-11-19 ~13:52 WIB)
 
-- **Swapped in:** Anthropic's record $79.4B IPO debut (Business/Tech
-  tile) **replaces** Voyager 1's one-light-day milestone. The IPO is
-  the day's biggest new business story; Voyager 1 was a slow-moving
-  milestone with no new 19 Nov development beyond the confirmation.
+- **Swapped in:** Anthropic's $79.4B IPO debut (Business/Tech
+tile) **replaces** Voyager 1's one-light-day milestone. The IPO is
+the day's biggest new business story; Voyager 1 was a slow-moving
+milestone with no new 19 Nov development beyond the confirmation.
 - **Updated wording, same stories:** Trump–Xi–Putin summit — the
-  three-way summit is now reported as held in Shenzhen, not merely
-  due; Crimean Bridge — now a third strike this week, not just
-  "attacked again"; US–Iran — a tanker was struck in the Strait
-  of Hormuz, added to the Kuwait/Bahrain attacks and Qeshm Island
-  strikes.
+three-way summit is now reported as held in Shenzhen, not merely
+due; Crimean Bridge — now a third strike this week, not just
+"attacked again"; US–Iran — a tanker was struck in the Strait
+of Hormuz, added to the Kuwait and Bahrain attacks and Qeshm island
+strikes.
 - **Unchanged:** GTA VI global rollout, Jeffries as first Black
-  Speaker.
+Speaker.
 - **Considered but not swapped in:** Israel's president tapping Gadi
-  Eisenkot to form a government (bypassing Netanyahu); Australia/
-  Canada/Italy/UK calling on Israel to let aid reach flooded Gaza;
-  Russian military plane crash in Siberia (19 killed); EU
-  governments greenlighting the Indonesia trade pact; NSA outage
-  disrupting Middle East intelligence links. All are real 19 Nov
-  stories, but none displaced a stronger tile in the 6-tile layout;
-  the Gaza-aid and Eisenkot stories overlap the Middle East tile,
-  and the crash/pact/outage are narrower than the six kept.
+Eisenkot to form a government (bypassing Netanyahu); Australia/
+Canada/Italy/UK calling on Israel to let aid reach flooded Gaza;
+Russian military plane crash in Siberia (19 killed); EU
+governments greenlighting the Indonesia trade pact; NSA outage
+disrupting Middle East intelligence links. All are real 19 Nov
+stories, but none displaced a stronger tile in the 6-tile layout;
+the Gaza-aid and Eisenkot stories overlap the Middle East tile,
+and the crash/pact/outage are narrower than the six kept.
 - Footer sources line updated (NASA removed, since Voyager 1 left
-  the image).
+the image).
 - Early-day build for reference: 19,076 bytes, SHA-256
-  `3cf934080929a13080016c9f3fae7176dc1bb8dc3f78c37f7d5ce9607414f0a5`.
+`3cf934080929a13080016c9f3fae7176dc1bb8dc3f78c37f7d5ce9607414f0a5`.
 
 ## Note on timing
 
@@ -102,7 +106,7 @@ stories breaking on 20 Nov belong to the 20 Nov bounty, not this one.
 ## Status
 
 - Program built and verified locally 2026-11-19 ~08:35 WIB; refreshed
-  with the full day's news and re-verified 2026-11-19 ~13:52 WIB.
+with the full day's news and re-verified 2026-11-19 ~13:52 WIB.
 - NOT submitted: submission still blocked on a linked Solana wallet
-  (Bos to connect) and a public GitHub repo for this entry.
+(Bos to connect) and a public GitHub repo for this entry.
 - No repo created, no wallet linked, no money spent.
