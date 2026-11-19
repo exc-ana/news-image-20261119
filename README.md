@@ -70,7 +70,7 @@ overflows its tile, and the sources line is in the footer.
 
 ## What changed in the full-day refresh (2026-11-19 ~13:52 WIB)
 
-- **Swapped in:** Anthropic's $79.4B IPO debut (Business/Tech
+- **Swapped in:** Anthropic's record $79.4B IPO debut (Business/Tech
 tile) **replaces** Voyager 1's one-light-day milestone. The IPO is
 the day's biggest new business story; Voyager 1 was a slow-moving
 milestone with no new 19 Nov development beyond the confirmation.
@@ -78,7 +78,7 @@ milestone with no new 19 Nov development beyond the confirmation.
 three-way summit is now reported as held in Shenzhen, not merely
 due; Crimean Bridge — now a third strike this week, not just
 "attacked again"; US–Iran — a tanker was struck in the Strait
-of Hormuz, added to the Kuwait and Bahrain attacks and Qeshm island
+of Hormuz, added to the Kuwait/Bahrain attacks and Qeshm Island
 strikes.
 - **Unchanged:** GTA VI global rollout, Jeffries as first Black
 Speaker.
