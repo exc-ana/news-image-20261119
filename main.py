@@ -97,12 +97,12 @@ FONT = {
     "!": "3,0 3,5;3,7 3,8",
     "?": "1,1 2,0 4,0 5,1 5,3 3,5 3,6;3,7 3,8",
     "'": "3,0 2,2",
-    "\"": "2,0 2,2;4,0 4,2",
+    '"': "2,0 2,2;4,0 4,2",
     "(": "4,0 2,2 2,6 4,8",
     ")": "2,0 4,2 4,6 2,8",
     "/": "5,0 1,8",
     "-": "1,5 5,5",
-    "•": "2,3 4,3;2,4 4,4;2,5 4,5",
+    "\u2022": "2,3 4,3;2,4 4,4;2,5 4,5",
     "$": "3,0 3,8;5,1 4,0 2,0 1,1 1,3 2,4 4,4 5,5 5,7 4,8 2,8 1,7",
     "%": "5,0 1,8;1,1 2,1 2,2 1,2 1,1;4,6 5,6 5,7 4,7 4,6",
     "#": "2,0 2,8;4,0 4,8;0,3 6,3;0,6 6,6",
@@ -285,7 +285,7 @@ def build(path):
     title = "19 NOVEMBER 2026"
     tw = cv.text_width(title, 38)
     cv.text(title, (W - tw) // 2, 16, 5.25, 6, 5, CREAM, 38)
-    sub = "THURSDAY • WORLD NEWS IN ONE IMAGE"
+    sub = "THURSDAY \u2022 WORLD NEWS IN ONE IMAGE"
     sw = cv.text_width(sub, 14)
     cv.text(sub, (W - sw) // 2, 88, 1.75, 2, 2, LIGHT, 14)
     cv.fill_rect(0, 120, W, 4, GOLD)
@@ -339,7 +339,7 @@ def build(path):
                 1.75, 2, 2, MUTED, 14)
 
     # ---- footer --------------------------------------------------
-    foot = "SOURCES: AP • BBC • REUTERS • NYT • NDTV"
+    foot = "SOURCES: AP \u2022 BBC \u2022 REUTERS \u2022 NYT \u2022 NDTV"
     fw = cv.text_width(foot, 14)
     cv.text(foot, (W - fw) // 2, 978, 1.75, 2, 2, MUTED, 14)
 
@@ -347,8 +347,12 @@ def build(path):
 
 
 def main():
-    here = os.path.dirname(os.path.abspath(__file__))
-    out = os.path.join(here, "output.png")
+    # Grader runs the repo read-only in /bot and reads the image from
+    # $MAKEFUN_OUTPUT_DIR/entry.png (default /output), so write there —
+    # never into the repo directory. Image bytes are unchanged.
+    out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
+    os.makedirs(out_dir, exist_ok=True)
+    out = os.path.join(out_dir, "entry.png")
     size = build(out)
     print("wrote %s (%d bytes)" % (out, size))
 
